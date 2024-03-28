@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background-image: url('./w.jpg');
+}
+.container{
+    width: 600px;
+    margin: 100px auto;
+    padding: 40px;
+}
+.inputs{
+padding: 2rem 0 2rem 0;
+text-align: center;
+justify-content: center;
+background: rgb(119, 9, 146);
+height: 150px;
+border-radius: 10px;
+
+}
+.inputs input[type="text"]{
+    height: 4rem;
+    width: 20rem;
+    background: #930670;
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 10px;
+    background-color: transparent;
+    border: 2px solid rgb(215, 207, 207);
+    border-radius: 5px;
+    margin-right: 4px;
+}
+.inputs input[type="submit"]{
+    height: 3rem;
+    width: 6rem;
+    background: #860b8f;
+    font-weight: bold;
+    color: rgb(220, 211, 211);
+    font-size: 1rem;
+    margin-top: 20px;
+    border: none;
+    border-radius: 4px;
+
+}
+.display{
+    text-align: center;
+    width: 520px;
+    color: #9f096f;
+
+}
+.wrapper{
+    margin: 0 9rem;
+    background-color: rgb(223, 211, 219);
+    height: 45vh;
+    margin: 50px auto;
+    border-radius: 2px;
+
+}
+.wrapper h2{
+    padding: 5px 0;
+    text-align: center;
+    background: #930977;
+    color: white;
+
+}
+.wrapper p{
+    margin: 20px 50px;
+    margin-right: 20px;
+    text-align: left;
+    color: #7e0851;
+    font-size: 23px;
+}
+.wrapper h2 span{
+    font-size: 26px;
+    color: #45c16c;
+
+}
+.wrapper p span{
+    color: #5c082d;
+    font-size: 25px;
+
+}
